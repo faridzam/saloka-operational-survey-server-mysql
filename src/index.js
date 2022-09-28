@@ -24,7 +24,7 @@ async function startServer(){
     app.use('/api', routes)
 
     app.listen(port, () => {
-        logger.info('server listening at http://localhost:'+port);
+        logger.info('server(mysql) listening at http://localhost:'+port);
     });
 }
 
